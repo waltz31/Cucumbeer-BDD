@@ -14,7 +14,7 @@ import java.io.IOException;
 		glue = {"com/cucumberFramework/stepdefinitions" },
 		plugin = {"pretty", "html:output/HTML_Report",
 				"com.cucumber.listener.ExtentCucumberFormatter:",},
-		tags = "@smoke",
+		tags = {"@smoke"},
 		monochrome = false,
 		dryRun = false)
 
