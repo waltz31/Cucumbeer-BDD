@@ -1,6 +1,6 @@
+@smoke
 Feature: As a Kiora KMC User I need to Login and Logout from the Portal
 
-  @smoke
   Scenario: Login into the Application with Valid Credentials
 
     Given I am on the page "https://stage2-kmc.kioramedia.tv/"
