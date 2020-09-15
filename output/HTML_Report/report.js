@@ -1,13 +1,19 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login/login_logout.feature");
 formatter.feature({
-  "line": 1,
+  "line": 2,
   "name": "As a Kiora KMC User I need to Login and Logout from the Portal",
   "description": "",
   "id": "as-a-kiora-kmc-user-i-need-to-login-and-logout-from-the-portal",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@smoke"
+    }
+  ]
 });
 formatter.before({
-  "duration": 3350124712,
+  "duration": 3075643450,
   "status": "passed"
 });
 formatter.scenario({
@@ -16,13 +22,7 @@ formatter.scenario({
   "description": "",
   "id": "as-a-kiora-kmc-user-i-need-to-login-and-logout-from-the-portal;login-into-the-application-with-valid-credentials",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@smoke"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 6,
@@ -59,7 +59,7 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_am_on_the_page(String)"
 });
 formatter.result({
-  "duration": 6666947141,
+  "duration": 7753212035,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_enter_the_userName_as(String)"
 });
 formatter.result({
-  "duration": 215885222,
+  "duration": 216021518,
   "status": "passed"
 });
 formatter.match({
@@ -85,26 +85,26 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_enter_the_Password_as(String)"
 });
 formatter.result({
-  "duration": 159084259,
+  "duration": 149805256,
   "status": "passed"
 });
 formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "duration": 98717801,
+  "duration": 90993447,
   "status": "passed"
 });
 formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_Should_Successfully_Login_to_the_KMC_Portal()"
 });
 formatter.result({
-  "duration": 8631176,
+  "duration": 7110567,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 650521185,
+  "duration": 615913556,
   "status": "passed"
 });
 });
