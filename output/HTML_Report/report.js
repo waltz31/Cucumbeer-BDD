@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3279286847,
+  "duration": 3366612040,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_am_on_the_page(String)"
 });
 formatter.result({
-  "duration": 8224303084,
+  "duration": 15395953163,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_enter_the_userName_as(String)"
 });
 formatter.result({
-  "duration": 187451888,
+  "duration": 233508466,
   "status": "passed"
 });
 formatter.match({
@@ -85,26 +85,26 @@ formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_enter_the_Password_as(String)"
 });
 formatter.result({
-  "duration": 155644612,
+  "duration": 152299964,
   "status": "passed"
 });
 formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_click_on_the_Login_Button()"
 });
 formatter.result({
-  "duration": 81363748,
+  "duration": 109956492,
   "status": "passed"
 });
 formatter.match({
   "location": "loginLogoutPageStepDefinitions.i_Should_Successfully_Login_to_the_KMC_Portal()"
 });
 formatter.result({
-  "duration": 7226726,
+  "duration": 8766797,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 589004689,
+  "duration": 636894088,
   "status": "passed"
 });
 });
