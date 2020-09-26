@@ -103,8 +103,13 @@
 			<resource>
 				<directory>src/test/resources/features</directory>
 			</resource>
-		</resources>
 
+			<resource>
+				<directory>src/main/java/com/cucumberFramework/testRunner</directory>
+			</resource>
+
+		</resources>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

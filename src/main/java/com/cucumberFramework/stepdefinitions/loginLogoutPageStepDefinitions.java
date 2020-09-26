@@ -38,5 +38,4 @@ public class loginLogoutPageStepDefinitions extends TestBase {
 		loginPage.VerifyLogin();
 	}
 
-
 }
